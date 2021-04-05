@@ -6,4 +6,4 @@ before_install:
   - docker build -t leedbates/frontend-dockerize -f Dockerfile.dev . 
 
 script:
-  - docker run leedbates/frontend-dockerize npm run test -- --coverage
+  - docker run leedbates/frontend-dockerize npm run coverage
